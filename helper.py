@@ -4,9 +4,10 @@ import shutil
 
 address = input("enter the path of the directory")
 extension_list = [
-    (('png', 'jpg', 'jpeg'), 'Images'),
+    (('png', 'jpg', 'jpeg'), 'images'),
     (('.csv', '.xls', '.XLS', '.xlsx','.ods'), 'spreadsheet'),
-    (('.exe', '.rar', '.zip'), 'zip ')
+    (('.exe', '.rar', '.zip'), 'zip '),
+    (('.txt', '.doc', '.docx'), 'text'),
 ]
 
 def directory_builder(address):
